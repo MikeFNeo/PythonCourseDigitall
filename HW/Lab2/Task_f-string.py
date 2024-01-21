@@ -11,7 +11,7 @@ age = 30
 color = 'black'
 
 ### Your code here
-print(f'Hello, my name is {name}, I am {age} years old, and my favorite color is {color}')
+# print(f'Hello, my name is {name}, I am {age} years old, and my favorite color is {color}')
 
 ### Expected output
 # Hello, my name is Alice, I am 30 years old, and my favorite color is black.
@@ -26,7 +26,7 @@ birth_year = 1993
 current_year = 2023
 
 ### Your code here
-
+# print(f'Alice is {current_year - birth_year} years old.')
 
 ### Expected output
 # Alice is 30 years old.
@@ -40,7 +40,7 @@ current_year = 2023
 amount = 1234567.89
 
 ### Your code here
-
+# print(f'${amount:,.2f}')
 
 ### Expected output
 # $1,234,567.89
@@ -62,7 +62,9 @@ item3_name = "Eggs"
 item3_price = 3.59
 
 ### Your code here
-
+# print(f'{item1_name:<15} {item1_price:>14}')
+# print(f'{item2_name:<15} {item2_price:>14}')
+# print(f'{item3_name:<15} {item3_price:>14}')
 
 ### Expected output
 # Milk                           1.99
@@ -82,7 +84,8 @@ minutes = 45
 seconds = 30
 
 ### Your code here
-
+# print(f'Alice\'s pace: {((hours * 60) + minutes + (seconds / 60)) / distance_km:.2f} minutes/km')
+# print(f'Total time: {((hours * 60) + minutes + (seconds / 60)) / 60:.2f} hours')
 
 ### Expected output
 # Alice's pace: 5.33 minutes/km
