@@ -133,17 +133,17 @@
 
 # if bmi_2 < 16.0:
 #     print (f'Your BMI = {bmi_2}, Category: Underweight (Severe thinness)')
-# elif 16.0 >= bmi_2 <= 16.9:
+# elif 16.0 <= bmi_2 <= 16.9:
 #     print (f'Your BMI = {bmi_2}, Category: Underweight (Moderate thinness)')
-# elif 17.0 >= bmi_2 <= 18.4:
+# elif 17.0 <= bmi_2 <= 18.4:
 #     print (f'Your BMI = {bmi_2}, Category: Underweight (Mild thinness)')
-# elif 18.5 >= bmi_2 <= 24.9:
+# elif 18.5 <= bmi_2 <= 24.9:
 #     print (f'Your BMI = {bmi_2}, Category: Normal range')
-# elif 25.0 >= bmi_2 <= 29.9:
+# elif 25.0 <= bmi_2 <= 29.9:
 #     print (f'Your BMI = {bmi_2}, Category: Overweight (Pre-obese)')
-# elif 30.0 >= bmi_2 <= 34.9:
+# elif 30.0 <= bmi_2 <= 34.9:
 #     print (f'Your BMI = {bmi_2}, Category: Obese (Class I)')
-# elif 35.0 >= bmi_2 <= 39.9:
+# elif 35.0 <= bmi_2 <= 39.9:
 #     print (f'Your BMI = {bmi_2}, Category: Obese (Class II)')
 # else:
 #     print (f'Your BMI = {bmi_2}, Category: Obese (Class III)')
