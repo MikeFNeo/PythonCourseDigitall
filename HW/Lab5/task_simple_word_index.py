@@ -1,4 +1,4 @@
-# varables
+# variables
 text = 'apple and banana one apple one banana a red apple and a green apple'
 
 # calculate the repeating words
